@@ -1,12 +1,13 @@
 function SumofTwoNumbers(a,b); //intializing function
 {
-  //addition of the two numbers;
+ let result=a+b;    //addition of the two numbers;
 console.log("The Sum is" + result);//Displays the sum
   
 }
 
-let a= parsFloat(Prompt("Enter The First Number: "))
-let b= parseFloat(Prompt("Enter The Second Number:"))
+let a= parsFloat(Prompt("Enter The First Number: ")) //taking the first input from the user
+let b= parseFloat(Prompt("Enter The Second Number:")) //taking the second input from the user
 
-let result=a+b;  
-return result;
+let Sum= SumofTwoNumbers();
+return;
+
