@@ -1,8 +1,8 @@
 // program using switch statement
-let a = 3;
+let a = 3; //intializing initial case(test case)
 switch (a) {
     case 1:
-        a = "one";
+        a = "one";//testing against the first condition
         break;
     case 2:
         a = "two";
