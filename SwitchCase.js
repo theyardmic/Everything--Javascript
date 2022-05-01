@@ -11,7 +11,7 @@ switch (a) {
         a = "three";
         break;
     default:
-        a = "undefined";//defaulr switch result incase of invalid output
+        a = "undefined";//defaulr switch result incase of invalid input
         break;
         }
 console.log(`The number is ${a}`);//displaying the final condition result
