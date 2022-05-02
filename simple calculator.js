@@ -2,7 +2,7 @@
 let result;
 
 // take  operator input
-const operator = prompt('Enter operator ( either +, -, * or / ): ');
+let operator = prompt('Enter operator ( either +, -, * or / ): ');
 
 // take  operand input
 let number1 = parseFloat(prompt('Enter first number: '));
