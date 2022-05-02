@@ -1,5 +1,5 @@
 // simple calculator
-let result;
+let result//initialize final result
 
 // take  operator input
 let operator = prompt('Enter operator ( either +, -, * or / ): ');
