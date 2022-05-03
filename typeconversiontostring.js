@@ -13,8 +13,10 @@ console.log(result); // "null"
 result = String(undefined);
 console.log(result); // "undefined"
 
+//Nan to string
 result = String(NaN);
 console.log(result); // "NaN"
+
 
 result = String(true);
 console.log(result); // "true"
