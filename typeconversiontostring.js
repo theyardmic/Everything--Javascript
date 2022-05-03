@@ -17,7 +17,7 @@ console.log(result); // "undefined"
 result = String(NaN);
 console.log(result); // "NaN"
 
-
+//boolean to string conversion
 result = String(true);
 console.log(result); // "true"
 
