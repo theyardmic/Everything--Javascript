@@ -10,6 +10,7 @@ console.log(result); // "6"
 result = String(null);
 console.log(result); // "null"
 
+//undefined to string
 result = String(undefined);
 console.log(result); // "undefined"
 
