@@ -1,7 +1,7 @@
 // program to add two numbers
 // declaring a function
 function add(a, b) {
-    return a + b;
+    return a + b;//using the return keyword
 }
 
 // take input from the user
