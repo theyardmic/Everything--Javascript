@@ -5,7 +5,7 @@ function add(a, b) {
 }
 
 // take input from the user
-let number1 = parseFloat(prompt("Enter first number: "));
+let number1 = parseFloat(prompt("Enter first number: "));//taking the first number input
 let number2 = parseFloat(prompt("Enter second number: "));
 
 // calling function
