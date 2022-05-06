@@ -1,4 +1,4 @@
-// Home Made Iterable
+//  Iteration function for looping through numbers  divisible by ten
 function myNumbers() {
   let n = 0;
   return {
