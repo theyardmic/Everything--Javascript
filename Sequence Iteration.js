@@ -10,7 +10,7 @@ function myNumbers() {
 }
 
 // Create Iterable
-const n = myNumbers();
+let n = myNumbers();
 n.next(); // Returns 10
 n.next(); // Returns 20
 n.next(); // Returns 30
