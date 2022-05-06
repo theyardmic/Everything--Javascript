@@ -4,7 +4,7 @@ function myNumbers() {
   return {
     next: function() {
       n += 10;
-      return {value:n, done:false};
+      return {value:n, done:false};//return value and continue looping
     }
   };
 }
