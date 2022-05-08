@@ -14,7 +14,7 @@ console.log(result2); // HELLO
 const result3 = text3.trim();
 console.log(result3); // JavaScript
 
-// converting the string to an array
+//  string to array conversion
 const result4 = text1.split();
 console.log(result4); // ["hello"]
 
