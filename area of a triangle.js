@@ -16,6 +16,7 @@ console.log(
   `The area of the triangle is ${areaValue}`
 );
 
+// JavaScript program to find the area of a triangle with base and height
 const baseValue = prompt('Enter the base of a triangle: ');
 const heightValue = prompt('Enter the height of a triangle: ');
 
