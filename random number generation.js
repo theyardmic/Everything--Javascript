@@ -1,4 +1,9 @@
-//integer values between two numbers inclusive of the range from user input
+//displaying a random number
+let a = Math.random();
+console.log(`The random number is ${a}`);
+
+
+// displaying integer values between two numbers inclusive of the range from user input
 
 // input from the user
 let min = parseInt(prompt("Enter a min value: "));
@@ -21,3 +26,4 @@ let a = Math.floor(Math.random() * (max - min)) + min;
 
 // display a random number
 console.log(`Random value between ${min} and ${max} is ${a}`);
+
