@@ -1,7 +1,7 @@
-// program to remove a property from an object
+// program to remove an item from an object
 
 // creating an object
-const student = { 
+let student = { 
     name: 'John',
     age: 20,
     hobbies: ['reading', 'games', 'coding'],
