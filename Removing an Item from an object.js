@@ -2,11 +2,11 @@
 
 // creating an object
 let student = { 
-    name: 'John',
+    name: 'SCOTT,
     age: 20,
     hobbies: ['reading', 'games', 'coding'],
     greet: function() {
-        console.log('Hello everyone.');
+        console.log('Sample object.');
     },
     score: {
         maths: 90,
