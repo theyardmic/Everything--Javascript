@@ -17,5 +17,6 @@ let student = {
 // deleting a property from an object
 delete student.greet;
 delete student['scores'];
+delete student ['age'];
 
 console.log(student);
