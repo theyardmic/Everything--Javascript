@@ -8,7 +8,7 @@ let student = {
     greet: function() {
         console.log('Sample object.');
     },
-    score: {
+    scores: {
         maths: 90,
         science: 80
     }
@@ -16,6 +16,6 @@ let student = {
 
 // deleting a property from an object
 delete student.greet;
-delete student['score'];
+delete student['scores'];
 
 console.log(student);
