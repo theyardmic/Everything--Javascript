@@ -4,4 +4,5 @@ let string = 'Mr red has a red house and a red car';
 
 let newstring = string.split('red').join('blue');
 
-console.log(result);
+//displaying replaced string
+console.log(newstring);
