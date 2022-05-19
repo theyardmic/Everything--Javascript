@@ -37,7 +37,7 @@ const person = {
 }
 
 person.greet();
-
+//
 const person = {
     name : 'Jack',
     age: 25,
