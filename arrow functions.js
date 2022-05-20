@@ -2,6 +2,18 @@
 let greet = () => console.log('Hello');
 greet(); // Hello
 
+
+//using arrow functions as expressions
+let age = 5;
+
+let welcome = (age < 18) ?
+  () => console.log('Baby') :
+  () => console.log('Adult');
+
+welcome(); // Baby
+
+
+
 //using arrow functions with "this" keyword
 function Person() {
     this.name = 'Jack',
