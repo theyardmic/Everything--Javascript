@@ -2,7 +2,7 @@
 let greet = () => console.log('Hello');
 greet(); // Hello
 
-
+//using arrow functions with "this" keyword
 function Person() {
     this.name = 'Jack',
     this.age = 25,
