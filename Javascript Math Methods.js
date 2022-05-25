@@ -19,7 +19,7 @@ console.log(numbers);
 
 
 //Find the minimum number in a range of values
-let numbers = Math.max(12, 4, 5, 9, 0, -3);
+const numbers = Math.max(12, 4, 5, 9, 0, -3);
 console.log(numbers); 
 
 // Output:  -3
@@ -34,7 +34,7 @@ console.log(number);
 const number = 38.8;
 
 // round number to nearest smallest number
-let roundedNumber = Math.floor(number);
+const roundedNumber = Math.floor(number);
 console.log(roundedNumber);
 
 // Output: 38
