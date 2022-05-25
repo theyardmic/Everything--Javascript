@@ -25,13 +25,13 @@ console.log(numbers);
 // Output:  -3
 
 //truncating numbers
-let number = Math.trunc("420.56");
+const number = Math.trunc("420.56");
 console.log(number); 
 
 // Output: 420
 
 
-let number = 38.8;
+const number = 38.8;
 
 // round number to nearest smallest number
 let roundedNumber = Math.floor(number);
