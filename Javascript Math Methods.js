@@ -24,6 +24,7 @@ console.log(numbers);
 
 // Output:  -3
 
+//truncating numbers
 let number = Math.trunc("420.56");
 console.log(number); 
 
