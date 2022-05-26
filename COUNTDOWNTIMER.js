@@ -14,7 +14,7 @@ let x = setInterval(function() {
 
     // time calculations for days, hours, minutes and seconds
     const days = Math.floor( timeLeft/(1000*60*60*24) );
-    const hours = Math.floor( (timeLeft/(1000*60*60)) % 24 );
+   let hours = Math.floor( (timeLeft/(1000*60*60)) % 24 );
     let minutes = Math.floor( (timeLeft/1000/60) % 60 );
  let seconds = Math.floor( (timeLeft/1000) % 60 );
 
