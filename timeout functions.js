@@ -11,10 +11,10 @@ console.log('This message is shown first');
 function showTime() {
 
     // return new date and time
-    let dateTime= new Date();
+   const dateTime= new Date();
 
     // returns the current local time
-    let time = dateTime.toLocaleTimeString();
+    const time = dateTime.toLocaleTimeString();
 
     console.log(time)
 
