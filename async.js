@@ -18,7 +18,7 @@ f().then(function(result) {
 });
 
 // a promise
-let promise = new Promise(function (resolve, reject) {
+const promise = new Promise(function (resolve, reject) {
     setTimeout(function () {
     resolve('Promise resolved')}, 4000); 
 });
