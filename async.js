@@ -27,7 +27,7 @@ const promise = new Promise(function (resolve, reject) {
 async function asyncFunc() {
 
     // wait until the promise resolves 
-    let result = await promise; 
+    const result = await promise; 
 
     console.log(result);
     console.log('hello');
