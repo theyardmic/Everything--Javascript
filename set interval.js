@@ -1,4 +1,4 @@
-// program to display a text using setInterval method
+// program to display a text every second
 function greet() {
     console.log('Hello world');
 }
