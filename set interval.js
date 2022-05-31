@@ -19,6 +19,7 @@ function showTime() {
 }
 
 let display = setInterval(showTime, 5000);
+//Canceling a timeout function
 
 // program to stop the setInterval() method after five times
 
