@@ -1,6 +1,6 @@
 const a = 5;
 const b = 'asdf';
-let c = a + b;
+const c = a + b;
 
 // if you want to see the value of c
 console.log(c);
