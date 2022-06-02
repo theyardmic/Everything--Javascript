@@ -1,5 +1,5 @@
-let a = 5;
-let b = 'asdf';
+const a = 5;
+const b = 'asdf';
 let c = a + b;
 
 // if you want to see the value of c
