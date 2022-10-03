@@ -1,0 +1,29 @@
+import "./styles.css";
+import { useState } from "react";
+
+export default function App() {
+  return (
+    <div className="App">
+      <ThisWorks />
+    </div>
+  );
+}
+
+function Init() {
+  // myNumber is the variable itself
+  // setMyNumber is a function that lets us update the value
+  // useState(0) initializes the React Hook
+  // with the starting value of 0
+  const [myNumber, setMyNumber] = useState(0);
+
+  function increment() {
+    setMyNumber(myNumber + 1);
+  }
+
+  return (
+    <div>
+      <p>{myNumber}</p>
+      <button onClick={increment}>Increment!</button>
+    </div>
+  );
+}
