@@ -1,3 +1,4 @@
+//creating the class
 class Token{
   constructor(name) {
     this.name = name;
