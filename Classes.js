@@ -1,7 +1,7 @@
 //creating the class
 class Token{
   constructor(name) {
-    this.name = name;
+    this.name = name; //objectt creation method
   }
 }
 
