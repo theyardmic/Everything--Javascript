@@ -5,7 +5,7 @@ class Token{
   }
 }
 
-let token = new Token('NFT');
+let token = new Token('NFT');  //creating new method
 
 //displaying the new object from class
 console.log(token.name);
