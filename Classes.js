@@ -7,5 +7,6 @@ class Token{
 
 let token = new Token('NFT');
 
+//displaying the new object from class
 console.log(token.name);
   
