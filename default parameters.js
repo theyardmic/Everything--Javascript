@@ -16,9 +16,9 @@ console.log(_sumExp());
 
 
 const f = () => 15;
-function fSum(f, h = f*y){
-  _fsum = f + h;
+function fSum(x, h = f() * x){
+  return x + h;
 }
 
-console.log(h);
 console.log(fSum(10));
+
