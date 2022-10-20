@@ -11,3 +11,6 @@ console.log( ...tokenArr);
 
 let sMarks = {Math: 92, AI:90};
 let tMarks = {...sMarks, Grade:"A"};
+
+console.log(sMarks);
+console.log(tMarks);
