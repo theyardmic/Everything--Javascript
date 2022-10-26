@@ -12,8 +12,7 @@ function callMe() {
 // passing function as an argument
 greet('Brian', callMe);
 
-//  program that shows the delay in execution
-
+// Using callbacks with setTimeout
 function greet() {
     console.log('Hello world');
 }
