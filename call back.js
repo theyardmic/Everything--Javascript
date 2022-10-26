@@ -10,7 +10,7 @@ function callMe() {
 }
 
 // passing function as an argument
-greet('Brian', callMe);
+greet('Strucker', callMe);
 
 // Using callbacks with setTimeout
 function greet() {
@@ -23,4 +23,4 @@ function sayName(name) {
 
 // calling the function
 setTimeout(greet, 2000);
-sayName('John');
+sayName('Kartel');
