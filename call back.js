@@ -6,7 +6,7 @@ function greet(name, callback) {
 
 // callback function
 function callMe() {
-    console.log('I am callback function');
+    console.log('This is a callback function');
 }
 
 // passing function as an argument
