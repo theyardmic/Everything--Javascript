@@ -7,4 +7,6 @@ const handler = {
     }   
 };
 
+export {car, proxy};
 console.log(proxy.model); //Mercedes
+
