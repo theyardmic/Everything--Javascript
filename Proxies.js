@@ -8,5 +8,5 @@ const handler = {
 };
 
 export {car, proxy};
-console.log(proxy.model); //Mercedes
+console.log(proxy.model); //E250
 
