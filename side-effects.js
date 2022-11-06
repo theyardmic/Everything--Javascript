@@ -13,4 +13,5 @@ let myFunction = () => {
 
    const proxy = new Proxy(myFunction, handler);
    
-   proxy.myFunction = "Merc";
+    proxy.myFunction = "Merc"; // Best Sedan
+    proxy.myFunction = "BMW"; // Function not found

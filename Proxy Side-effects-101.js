@@ -19,3 +19,7 @@
 // 11. Any function that modifies any external variable or object property cannot be pure
 // 12. Any function that logs to the console cannot be pure
 // 13. Any function that throws an exception cannot be pure
+
+//side-effects snippet
+
+
