@@ -1,9 +1,12 @@
-let car = { make: 'Mercedes', model: 'E250' };
-
+let car = { Make: 'Mercedes', Model: 'E250' };
 const handler = {
-    get: function(car, model) {
-         return car[model];  //return the value of the property
+    get: function(obj, prop) {
+         return obj[prop] ? obj[prop] :  "Property not found";
     }   
 };
+
 let proxy = new Proxy(car, handler);
-console.log(proxy.model); //E250
+console.log(proxy.Make); // Mercedes
+console.log(proxy.Model); // E250
+console.log(proxy.Trim); //Not found
+
