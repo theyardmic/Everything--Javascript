@@ -11,4 +11,8 @@ let newSpec = {
 let _car = new Proxy(car, newSpec );
 car.Trim = "Premium";
 
-console.log(car); //{ Make: 'Mercedes', Model: 'E250', Trim: 'Premium' }
+ 
+for (const key in car) {
+
+    console.log(`${key}: ${car[key]}`);
+}
