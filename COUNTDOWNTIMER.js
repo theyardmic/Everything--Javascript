@@ -1,7 +1,7 @@
 // program to create a countdown timer
 
 // time to countdown from (in milliseconds)
-let countDownDate = new Date().getTime() + 24 * 60 * 60 * 1000;
+let quarterCountdown = new Date().getTime() + 24 * 60 * 60 * 1000;
 
 // countdown timer
 let x = setInterval(function() {
