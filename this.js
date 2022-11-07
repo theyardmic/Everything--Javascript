@@ -1,65 +1,36 @@
-const person = {
-    name : 'Jack',
-    age: 25,
+                                //"this". keyword
 
-    // this inside method
-    // this refers to the object itself
-    greet() {
-        console.log(this);
-        console.log(this.name);
+//This keyword is used to refer to the current object, function, or variable.
+
+//1.to refer to the current object
+let car = {
+    "Brand" : "Mercedes",
+    "Model" : "E Class",
+    "Year" : 2015,
+
+
+     getSpecs() {
+        console.log(this);  // this refers to the object itself     
+        console.log(this.Model); // object property
     }
 }
 
-person.greet();
+car.getSpecs();
 
-const person = {
-    name : 'Jack',
-    age: 25,
+         //2.to refer to the current function
+function setSpecs() {
+        this.Color = "Pearl White";
+           }
 
-    // this inside method
-    // this refers to the object itself
-    greet() {
-        console.log(this);        // {name: "Jack", age ...}
-        console.log(this.age);  // 25
+let newSpec = new setSpecs();
+console.log(Color); //Pearl White
 
-        // inner function
-        function innerFunc() {
-        
-            // this refers to the global object
-            console.log(this);       // Window { ... }
-            console.log(this.age);    // undefined
-            
-        }
-
-        innerFunc();
-
-    }
+        //3.to refer to the current object in a constructor function
+function Car(brand, model, year) {
+    this.brand = brand;
+    this.model = model;
+    this.year = year;
 }
 
-person.greet();
-//
-const person = {
-    name : 'Jack',
-    age: 25,
-
-    // this inside method
-    // this refers to the object itself
-    greet() {
-        console.log(this);
-        console.log(this.age);
-
-        // inner function
-        let innerFunc = () => {
-        
-            // this refers to the global object
-            console.log(this);
-            console.log(this.age);
-            
-        }
-
-        innerFunc();
-
-    }
-}
-
-person.greet();
+let bestSedan = new Car("Mercedes", "E Class", 2015);
+console.log(bestSedan)
