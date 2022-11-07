@@ -1,5 +1,4 @@
 let car = { make: 'Mercedes', model: 'E250' };
-let proxy = new Proxy(car, handler);
 
 const handler = {
     get: function(car, model) {
@@ -7,6 +6,7 @@ const handler = {
     }   
 };
 
-export {car, proxy};
+let proxy = new Proxy(car, handler);
 console.log(proxy.model); //E250
+console.log(proxy.year); //undefined
 
