@@ -26,3 +26,29 @@ for(let [key, value ] of Car){
 }
 
 //4. Iterating over a Set
+let carSet = new Set();
+
+carSet.add("Mercedes");
+carSet.add("BMW");
+carSet.add("Audi");
+carSet.add("Toyota");
+carSet.add("Honda");
+
+for(let c of carSet){
+console.log(c);
+}
+
+//5. Iterating over a generator
+function* carGenerator(){
+    yield "Mercedes";
+    yield "BMW";
+    yield "Audi";
+    yield "Toyota";
+    yield "Honda";
+}
+
+let carCollection = carGenerator();
+
+for(let value of carCollection){
+    console.log(value);
+}
