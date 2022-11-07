@@ -1,3 +1,5 @@
+                    //For of loop
+                    
 //for...of loop applications
 
 //1. Iterating over an array
@@ -19,22 +21,22 @@ for(let element of Sedan){
 let Car = new Map();
 
 Car.set("Mercedes", "Sedan");
-Car.set("PTx", "SUV");
+Car.set("Prado_Tx", "SUV");
 
 for(let [key, value ] of Car){
     console.log(key + " is a " + value);
 }
 
 //4. Iterating over a Set
-let carSet = new Set();
+let carBrand = new Set();
 
-carSet.add("Mercedes");
-carSet.add("Tx");
-carSet.add("Audi");
-carSet.add("Toyota");
-carSet.add("Honda");
+carBrand.add("Mercedes");
+carBrand.add("Tx");
+carBrand.add("Audi");
+carBrand.add("Toyota");
+carBrand.add("Honda");
 
-for(let c of carSet){
+for(let c of carBrand){
 console.log(c);
 }
 
