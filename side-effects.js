@@ -2,7 +2,7 @@ let myFunction = () => {
     console.log("Best Sedan");
     }
 
-    const handler = {
+    const handler = { //create handler
        set : function(target, prop, value) {
            if (prop === 'myFunction' && value === 'Merc') {
                myFunction();
