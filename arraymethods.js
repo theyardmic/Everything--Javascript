@@ -19,3 +19,6 @@ console.log(expensiveCars);
 //sort method
 let sortedCars = cars.sort();
 console.log(sortedCars); // BMW Genesis Mercedes Toyota
+
+let bestName = cars.filter(car => car,length > 6);
+console.log(bestName); // Mercedes Toyota
