@@ -26,3 +26,7 @@ console.log(bestName); // Mercedes Toyota
 //map method
 let newCarPrice = msrp.map(price => price * 1.1);
 console.log(newCarPrice); // 55000 66000 77000 88000
+
+//concat method
+let oldCars = ["Ford", "Chevy", "Dodge"];
+let allCars = cars.concat(oldCars);
