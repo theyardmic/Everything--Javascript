@@ -14,7 +14,7 @@ const handler = {
   }
 }
 
-const proxy = new Proxy(car, handler);
+const proxy = new Proxy(car, handler); //assign proxy value to variable 
 
 console.log(proxy.Model); // E250
 console.log(proxy.Make); // Not allowed
