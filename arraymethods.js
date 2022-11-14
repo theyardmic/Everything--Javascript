@@ -24,6 +24,8 @@ let bestName = cars.filter(car => car,length > 6);
 console.log(bestName); // Mercedes Toyota
 
 //map method
+//the map method creates a new array with the results of calling a function for every array element
+
 let newCarPrice = msrp.map(price => price * 1.1);
 console.log(newCarPrice); // 55000 66000 77000 88000
 
@@ -38,3 +40,4 @@ console.log(bestCar); // 0
 //splice method
 let removedCars = cars.splice(1, 2);
 console.log(removedCars); // BMW Toyota
+
