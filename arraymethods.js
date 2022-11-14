@@ -37,14 +37,17 @@ let newCarPrice = msrp.map(price => price * 1.1);
 console.log(newCarPrice); // 55000 66000 77000 88000
 
 //concat method
+//the concat method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.
 let oldCars = ["Ford", "Chevy", "Dodge"];
 let allCars = cars.concat(oldCars);
 
 //find index method
+//the findIndex method returns the index of the first element in an array that pass a test.
 let bestCar = cars.findIndex(car => car === "Mercedes");
 console.log(bestCar); // 0
 
 //splice method
+//the splice method adds/removes items to/from an array, and returns the removed item(s).
 let removedCars = cars.splice(1, 2);
 console.log(removedCars); // BMW Toyota
 
