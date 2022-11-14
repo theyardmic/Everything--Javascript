@@ -5,7 +5,7 @@ let removedCar = cars.pop();
 console.log(removedCar); // Volvo
 
 //push method
-//the push mehtod adds one or more elements to the end of an array and returns the new length of the array.
+//the push method adds one or more elements to the end of an array and returns the new length of the array.
 let updatedCars = cars.push("Genesis");
 console.log(updatedCars); // 4
 console.log(cars[4]); // Genesis
