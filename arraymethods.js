@@ -22,3 +22,7 @@ console.log(sortedCars); // BMW Genesis Mercedes Toyota
 
 let bestName = cars.filter(car => car,length > 6);
 console.log(bestName); // Mercedes Toyota
+
+//map method
+let newCarPrice = msrp.map(price => price * 1.1);
+console.log(newCarPrice); // 55000 66000 77000 88000
