@@ -34,3 +34,7 @@ let allCars = cars.concat(oldCars);
 //find index method
 let bestCar = cars.findIndex(car => car === "Mercedes");
 console.log(bestCar); // 0
+
+//splice method
+let removedCars = cars.splice(1, 2);
+console.log(removedCars); // BMW Toyota
