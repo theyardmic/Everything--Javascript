@@ -1,18 +1,28 @@
-let car = { Make: 'Mercedes', Model: 'E250' };
+let car = {
+  Make: 'Mercedes', 
+  Model: 'E250',
+    
+      };
+
+car.getCarSpecs;
 
 let newSpec = {
-     set: function(car, Trim, value) {
+     set: function(obj, prop, value) {
 
-    car[Trim] = value;
+    obj[prop] = value;
     return;
   }
 };
 
-let _car = new Proxy(car, newSpec );
-car.Trim = "Premium";
+let carUpdate = new Proxy(car, newSpec );
+carUpdate.Trim = "Premium";
+carUpdate.YOM = 2015;
+carUpdate.Mileage = 0;
+carUpdate.Msrp = "$45000";
 
- 
-for (const key in car) {
 
-    console.log(`${key}: ${car[key]}`);
+for (let spec in carUpdate) {
+
+    console.log(`${spec}: ${car[spec]}`);
 }
+
