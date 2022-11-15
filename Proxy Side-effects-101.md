@@ -1,4 +1,4 @@
-//side-effects
+# Side-effects 101s
  1. Side-effects are changes to the state of the program
  2. Side-effects can include:
    - Modifying any external variable or object property
