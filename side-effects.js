@@ -1,6 +1,6 @@
 let myFunction = () => {
     console.log("Best Sedan");
-    }
+    };
 
     const handler = { //create handler
        set : function(target, prop, value) {
@@ -11,7 +11,7 @@ let myFunction = () => {
        }
    };
 
-   const proxy = new Proxy(myFunction, handler); //assign proxy to a variable 
+   const rating = new Proxy(myFunction, handler); //assign proxy to a variable 
    
-    proxy.myFunction = "Merc"; // Best Sedan
-    proxy.myFunction = "BMW"; // Function not found
+    rating.myFunction = "Merc"; // Best Sedan
+    rating.myFunction = "BMW"; // Function not found
