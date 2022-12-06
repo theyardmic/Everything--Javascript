@@ -1,16 +1,16 @@
 // program to generate a multiplication table up to 10
 
 // take input from the user
-let number = parseInt(prompt('Enter an integer: '));
+let first_number = parseInt(prompt('Enter an integer: '));
 
 //creating a multiplication table
 for(let i = 1; i <= 10; i++) {
 
     // multiply i with number
-  let result = i * number;
+  let result = i * first_number;
 
     // display the result
-    console.log(`${number} * ${i} = ${result}`);
+    console.log(`${first_number} * ${i} = ${result}`);
 }
 
 // program to generate a multiplication table up to a certain range

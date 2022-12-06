@@ -9,7 +9,7 @@ const handler = {
     if (prop == 'Model') {
       return obj[prop];
     } else {
-      return 'Not allowed';
+      return 'Car Does not exist';
     }
   }
 }
