@@ -1,9 +1,6 @@
-function isEven(num) {
-    let rem = num % 2;
-        if (rem === 0){
-            return true;
-        }    
-            return false;
-    }
-    
-    module.exports = isEven;
+function checkNumber(num) {
+    let status = (num >= 0) ? (num === 0 ? "zero" : "positive") : "negative";
+    return status;
+}
+
+module.exports = checkNumber;
