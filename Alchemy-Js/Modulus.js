@@ -1,4 +1,4 @@
-function scream(n) {
+function scream(n){
     let str = "";
     for(i = 1; i<=n; i++){
     let rem = i % 2;
@@ -13,5 +13,3 @@ function scream(n) {
     return str;
 
 }
-
-module.exports = scream;
