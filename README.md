@@ -1,4 +1,3 @@
-# Javascript-Snippets
 ## A collection of ![Javascript](https://img.shields.io/badge/Javascript-1.8.5-green.svg) Snippets covering ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E) Concepts.
 
 ## Concepts Covered
